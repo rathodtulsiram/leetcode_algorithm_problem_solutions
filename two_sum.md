@@ -12,6 +12,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 # Solution
+```
 /**
 * @return array with input [nums] & [target]
 */
@@ -29,3 +30,4 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
          }
         return IntArray(1)
     }
+```
