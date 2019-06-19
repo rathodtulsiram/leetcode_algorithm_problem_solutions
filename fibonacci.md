@@ -12,21 +12,21 @@ Given N, calculate F(N).
 * @return fiboncci number at [N] position
 */
 fun fib(N: Int): Int {
-        var start = 0
-        var next = 1
-        var num = 0
-       
-       return when(N){
-            0 -> return num
-            1 -> return start + next
-            else ->{
-                for(i in 1 until N){
-                    num = start + next
-                    start = next
-                    next = num
-                }
-                num
+    var start = 0
+    var next = 1
+    var num = 0
+
+    return when (N) {
+        0 -> return num
+        1 -> return start + next
+        else -> {
+            for (i in 1 until N) {
+                num = start + next
+                start = next
+                next = num
             }
+            num
         }
-      }
+    }
+}
 ```
