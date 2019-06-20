@@ -32,7 +32,7 @@ fun getSum(a: Int, b: Int): Int {
 }
 ```
 
-## 2. Using taditional approach
+## 2. Using traditional approach
 
 ```
 /**
