@@ -29,7 +29,7 @@ fun findTheDifference(s: String, t: String): Char {
     for (index in 0 until charArray.size) {
         shuffledCharList.remove(charArray[index])
     }
-    return shuffledCharList[0]
+    return shuffledCharList[shuffledCharList.size - 1]
 }
 
 ```
